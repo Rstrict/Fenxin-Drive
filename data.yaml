@@ -1,0 +1,12 @@
+train: D:\Study\DeveloppingAI\chengxu\yolov8\datasets\Abnormal Driver Behaviour yolov11\train  # train images (relative to 'path') 4 images
+val: D:\Study\DeveloppingAI\chengxu\yolov8\datasets\Abnormal Driver Behaviour yolov11\valid  # val images (relative to 'path') 4 images
+test: D:\Study\DeveloppingAI\chengxu\yolov8\datasets\Abnormal Driver Behaviour yolov11\test
+nc: 5
+names: ['Cigarette', 'Drinking', 'Eating', 'Phone', 'Seatbelt']
+
+roboflow:
+  workspace: university-exrks
+  project: abnormal-driver-behaviour
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/university-exrks/abnormal-driver-behaviour/dataset/10
