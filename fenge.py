@@ -2,7 +2,7 @@ import os
 import shutil
 import random
 
-src_folder = r'D:\BaiduNetdiskDownload\224\train\images'
+src_folder = r'D:\BaiduNetdiskDownload\youtube_face_yolo_pose\images\train'
 
 train_images = os.path.join(src_folder, 'images', 'train')
 train_labels = os.path.join(src_folder, 'labels', 'train')

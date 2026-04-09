@@ -7,11 +7,11 @@ os.environ["OMP_NUM_THREADS"] = "1"
 os.environ["MKL_NUM_THREADS"] = "1"
 
 # =============== 2) 你只需要改这里 ===============
-DATA_YAML = r"D:\Study\DeveloppingAI\Detect\ceshi\shuju\dataset_pose21\data.yaml"  # 你的data.yaml路径
+DATA_YAML = r"D:\BaiduNetdiskDownload\youtube_face_yolo_pose\images\train\data.yaml"  # 你的data.yaml路径
 MODEL = "yolov8n-pose.pt"  # 也可以换 yolov8s-pose.pt
 EPOCHS = 100
 IMGSZ = 640
-BATCH = 8
+BATCH = 32
 DEVICE = 0  # 0=第一张GPU；没有GPU可写 "cpu"
 PROJECT = "pose"  # 输出目录
 NAME = "face_pose27"   # 训练实验名
