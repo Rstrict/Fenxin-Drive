@@ -11,7 +11,7 @@ DATA_YAML = r"D:\BaiduNetdiskDownload\youtube_face_yolo_pose\images\train\data.y
 MODEL = "yolov8n-pose.pt"  # 也可以换 yolov8s-pose.pt
 EPOCHS = 100
 IMGSZ = 640
-BATCH = 32
+BATCH = -1
 DEVICE = 0  # 0=第一张GPU；没有GPU可写 "cpu"
 PROJECT = "pose"  # 输出目录
 NAME = "face_pose27"   # 训练实验名
