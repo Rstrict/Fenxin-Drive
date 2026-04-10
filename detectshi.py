@@ -57,7 +57,7 @@ def detect_video(model_path, video_path, save_path="output_detect.mp4"):
 if __name__ == "__main__":
     # 替换为你的模型路径、视频路径
     detect_video(
-        model_path=r"D:\Study\DeveloppingAI\chengxu\yolov8\runs\pose\runs\pose\face_pose26\weights\best.pt",
+        model_path=r"D:\Study\DeveloppingAI\chengxu\yolov8\runs\pose\pose\face_pose27\weights\best.pt",
         video_path="D:/Study/DeveloppingAI/Detect/ceshi/video/12.mp4",
         save_path="detected_result2.mp4"  # 输出视频路径
     )
